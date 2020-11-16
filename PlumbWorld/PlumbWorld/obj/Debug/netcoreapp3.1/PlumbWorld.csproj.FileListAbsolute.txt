@@ -1,0 +1,11 @@
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/bin/Debug/netcoreapp3.1/PlumbWorld.deps.json
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/bin/Debug/netcoreapp3.1/PlumbWorld.runtimeconfig.json
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/bin/Debug/netcoreapp3.1/PlumbWorld.runtimeconfig.dev.json
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/bin/Debug/netcoreapp3.1/PlumbWorld.dll
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/bin/Debug/netcoreapp3.1/PlumbWorld.pdb
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/obj/Debug/netcoreapp3.1/PlumbWorld.AssemblyInfoInputs.cache
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/obj/Debug/netcoreapp3.1/PlumbWorld.AssemblyInfo.cs
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/obj/Debug/netcoreapp3.1/PlumbWorld.csproj.CoreCompileInputs.cache
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/obj/Debug/netcoreapp3.1/PlumbWorld.dll
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/obj/Debug/netcoreapp3.1/PlumbWorld.pdb
+/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/obj/Debug/netcoreapp3.1/PlumbWorld.genruntimeconfig.cache
