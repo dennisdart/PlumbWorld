@@ -3,21 +3,53 @@ namespace PlumbWorld
 {
     public abstract class RandomNumber
     {
-        protected int randomnumber;
-        protected int maxgoes;
-        protected int lowerbound;
-        protected int upperbound;
+        private int maxGoes;
+        private int lowerBound;
+        private int upperBound;
+        private int numberToGuess;
+        private int numberEntered;
+       
 
-        public int MaxGoes { get; set; }
-        public int LowerBound { get; set; }
-        public int UpperBound { get; set; }
+        public int MaxGoes
+        {
+            get { return maxGoes; }
+            set { maxGoes = value; }
+        }
+
+        public int LowerBound
+        {
+            get { return lowerBound; }
+        }
+
+        public int UpperBound
+        {
+            get { return upperBound; }
+        }
+
+        public int NumberToGuess
+        {
+            get { return numberToGuess; }
+            set { numberToGuess = value; }
+        }
+
+        public int NumberEntered
+        {
+            get { return numberEntered; }
+            set { numberEntered = value; }
+        }
 
         public RandomNumber(int initmaxgoes, int initlowerbound, int initupperbound)
         {
             
-            maxgoes = initmaxgoes;
-            lowerbound = initlowerbound;
-            upperbound = initupperbound;
+            maxGoes = initmaxgoes;
+            lowerBound = initlowerbound;
+            upperBound = initupperbound;
         }
+
+        public abstract void GuessNumber();
+        public abstract int GenerateNumber();
+        public abstract int EnterNumber();
+        public abstract bool ValidateNumber();
+        public abstract void GoesLeft(int count);
     }
 }

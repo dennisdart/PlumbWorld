@@ -2,16 +2,20 @@
   <MonoDevelop.Ide.ItemProperties.PlumbWorld PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="PlumbWorld/Program.cs" Line="32" Column="103" />
-      <File FileName="PlumbWorld/EasyNumber.cs" Line="1" Column="1" />
-      <File FileName="PlumbWorld/MediumNumber.cs" />
-      <File FileName="PlumbWorld/HardNumber.cs" />
+      <File FileName="PlumbWorld/Program.cs" Line="24" Column="1" />
+      <File FileName="PlumbWorld/EasyNumber.cs" Line="88" Column="10" />
+      <File FileName="PlumbWorld/MediumNumber.cs" Line="22" Column="27" />
+      <File FileName="PlumbWorld/HardNumber.cs" Line="5" Column="6" />
+      <File FileName="PlumbWorld/RandomNumber.cs" Line="53" Column="48" />
+      <File FileName="PlumbWorld/obj/PlumbWorld.csproj.nuget.dgspec.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PlumbWorld" expanded="True" selected="True">
-            <Node name="PlumbWorld" expanded="True" />
+          <Node name="PlumbWorld" expanded="True">
+            <Node name="PlumbWorld" expanded="True">
+              <Node name="EasyNumber.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -21,7 +25,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/Program.cs" relfile="PlumbWorld/Program.cs" line="35" column="13" />
+      <Breakpoint file="/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/Program.cs" relfile="PlumbWorld/Program.cs" line="38" column="13" />
+      <Breakpoint file="/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/EasyNumber.cs" relfile="PlumbWorld/EasyNumber.cs" line="56" column="1" />
+      <Breakpoint file="/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/Program.cs" relfile="PlumbWorld/Program.cs" line="36" column="1" />
+      <Breakpoint file="/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/EasyNumber.cs" relfile="PlumbWorld/EasyNumber.cs" line="17" column="1" />
+      <Breakpoint file="/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/Program.cs" relfile="PlumbWorld/Program.cs" line="32" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

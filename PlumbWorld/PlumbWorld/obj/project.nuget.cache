@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L7RUvozrLL9YlkIejnaBwa5d0W/k30kdlQDNQYMdCJyTS4bbcEvdfxyygF4DixFUaWjY83NZYmlN1d6aOjlEag==",
+  "dgSpecHash": "FWCfhezshaKBwz2ViuOwxWBGAH1jlYxbmh+zDAqjBdrAXFQNiYIeY2fr/jqPO0nd086m7+mE69GYUidkCJlqTg==",
   "success": true,
   "projectFilePath": "/Users/julianhawkins/Documents/GitHub/PlumbWorld/PlumbWorld/PlumbWorld/PlumbWorld.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/julianhawkins/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }

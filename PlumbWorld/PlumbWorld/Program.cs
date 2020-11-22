@@ -10,7 +10,7 @@ namespace PlumbWorld
         };
         public const int easylowerbound = 1;
         public const int easyupperbound = 10;
-        public const int easymaxgoes = 6;
+        public const int easymaxgoes = 3;
         public const int mediumlowerbound = 1;
         public const int mediumupperbound = 100;
         public const int mediummaxgoes = 5;
@@ -21,31 +21,41 @@ namespace PlumbWorld
         static void Main(string[] args)
         {
             int difficulty = 0;
-            int numbertoguess = 0;
+
             do
             {
                 Console.WriteLine("Please select an option\n1 - Easy\n2 - Medium\n3 - Difficult\n4 - Exit\n");
-                difficulty = Convert.ToInt32(Console.ReadLine());
+                try
+                {
+                    difficulty = Convert.ToInt32(Console.ReadLine());
 
-                if (difficulty == (int)Difficulty.Easy)
-                {
-                    EasyNumber easynumber = new EasyNumber(easymaxgoes, easylowerbound, easyupperbound);
-                    numbertoguess = easynumber.GenerateNumber();
+                    if (difficulty == (int)Difficulty.Easy)
+                    {
+                        EasyNumber easyNumber = new EasyNumber(easymaxgoes, easylowerbound, easyupperbound);
+
+                        easyNumber.GuessNumber();
+                     }
+                    else if (difficulty == (int)Difficulty.Medium)
+                    {
+                        MediumNumber mediumNumber = new MediumNumber(mediummaxgoes, mediumlowerbound, mediumupperbound);
+                        mediumNumber.GuessNumber();
+                    }
+                    else if (difficulty == (int)Difficulty.Hard)
+                    {
+                        HardNumber hardNumber = new HardNumber(hardmaxgoes, hardlowerbound, hardupperbound);
+                        hardNumber.GuessNumber();
+
+                    }
                 }
-                else if (difficulty == (int)Difficulty.Medium)
+                catch(Exception exc)
                 {
-                    MediumNumber mediumnumber = new MediumNumber(mediummaxgoes, mediumlowerbound, mediumupperbound);
-                    numbertoguess = mediumnumber.GenerateNumber();
-                }
-                else if (difficulty == (int)Difficulty.Hard)
-                {
-                    HardNumber hardnumber = new HardNumber(hardmaxgoes, hardlowerbound, hardupperbound);
-                    numbertoguess = hardnumber.GenerateNumber();
+                    Console.WriteLine(exc.Message);
+                    Console.WriteLine("Please select an option between 1 and 4.");
                 }
             }
             while (difficulty != (int)Difficulty.Exit);
             
-            Console.WriteLine("Hello");
+            Console.WriteLine("Thanks for playing. Call again soon.");
         }
     }       
 }
